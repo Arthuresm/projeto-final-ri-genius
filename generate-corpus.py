@@ -1,5 +1,5 @@
 import lyricsgenius as genius
-api = genius.Genius('___your_genius_access_token_client_secret___')
+api = genius.Genius('BbtnBP88nVVVisOYwwKCX7YtTLAkdxHODod76yw8HLkwGM-kXPk124_ZlKj_7I1T')
 artist = api.search_artist('Racionais-mcs')
 lyrics = artist.save_lyrics()
 
